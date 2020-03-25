@@ -1,3 +1,5 @@
+![CI](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/CI/badge.svg?branch=master)
+
 Spinnaker Plugin to specify timeout for wait for manifest stage.
 
 <h2>Usage</h2>
