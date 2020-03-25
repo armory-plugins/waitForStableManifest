@@ -24,7 +24,7 @@ repositories {
 
 spinnakerPlugin {
   serviceName = "orca"
-  pluginClass = "io.armory.plugin.example.spring.SpringExamplePlugin"
+  pluginClass = "io.armory.plugin.manifest.WaitForStableManifestPlugin"
 }
 
 dependencies {

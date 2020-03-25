@@ -15,9 +15,9 @@ plugins {
 apply plugin: "io.spinnaker.plugin.bundler"
 
 spinnakerBundle {
-  pluginId = "Armory.SpringExamplePlugin"
-  description = "An example of a Spring based plugin that requires no extension points."
-  provider = "https://github.com/claymccoy"
+  pluginId = "Armory.WaitForStableManifest"
+  description = "Enables you to specify the timeout when waiting for a manifest."
+  provider = "https://github.com/bpowell"
   version = rootProject.version
 }
 

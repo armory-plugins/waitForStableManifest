@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory
 import org.pf4j.PluginWrapper
 import org.springframework.beans.factory.support.BeanDefinitionRegistry
 
-class OrcaWaitForManifestStableTask(wrapper: PluginWrapper) : PrivilegedSpringPlugin(wrapper) {
+class WaitForStableManifestPlugin(wrapper: PluginWrapper) : PrivilegedSpringPlugin(wrapper) {
 
     override fun registerBeanDefinitions(registry: BeanDefinitionRegistry) {
         listOf(
@@ -15,13 +15,13 @@ class OrcaWaitForManifestStableTask(wrapper: PluginWrapper) : PrivilegedSpringPl
         }
     }
 
-    private val logger = LoggerFactory.getLogger(OrcaWaitForManifestStableTask::class.java)
+    private val logger = LoggerFactory.getLogger(WaitForStableManifestPlugin::class.java)
 
     override fun start() {
-        logger.info("OrcaWaitForManifestStableTask.start()")
+        logger.info("WaitForStableManifestPlugin.start()")
     }
 
     override fun stop() {
-        logger.info("OrcaWaitForManifestStableTask.stop()")
+        logger.info("WaitForStableManifestPlugin.stop()")
     }
 }
