@@ -1,4 +1,6 @@
 ![CI](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/CI/badge.svg?branch=master)
+![Latest Kork](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/Latest%20Kork/badge.svg?branch=master)
+![Latest Orca](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/Latest%20Orca/badge.svg?branch=master)
 
 Spinnaker Plugin to specify timeout for wait for manifest stage.
 
