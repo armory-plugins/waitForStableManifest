@@ -35,6 +35,9 @@ dependencies {
 
   annotationProcessor(platform("com.netflix.spinnaker.kork:kork-bom:$korkVersion"))
 
+  testImplementation (group: 'com.netflix.spinnaker.orca', name: 'orca-core', version: "${orcaVersion}")
+  testImplementation (group: 'com.netflix.spinnaker.orca', name: 'orca-clouddriver', version: "${orcaVersion}")
+
   testImplementation "org.junit.jupiter:junit-jupiter-api:5.5.2"
   testImplementation group: 'io.strikt', name: 'strikt-core', version: '0.22.1'
   testImplementation group: 'dev.minutest', name: 'minutest', version: '1.10.0'
