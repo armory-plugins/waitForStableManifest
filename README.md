@@ -1,6 +1,6 @@
-![CI](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/CI/badge.svg?branch=master)
-![Latest Kork](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/Latest%20Kork/badge.svg?branch=master)
-![Latest Orca](https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/workflows/Latest%20Orca/badge.svg?branch=master)
+![CI](https://github.com/armory-plugins/waitForStableManifest/workflows/CI/badge.svg?branch=master)
+![Latest Kork](https://github.com/armory-plugins/waitForStableManifest/workflows/Latest%20Kork/badge.svg?branch=master)
+![Latest Orca](https://github.com/armory-plugins/waitForStableManifest/workflows/Latest%20Orca/badge.svg?branch=master)
 
 Spinnaker Plugin to specify timeout for wait for manifest stage.
 
@@ -17,7 +17,7 @@ spinnaker:
         enabled: true
 ```
 
-Or use the [examplePluginRepository](https://github.com/spinnaker-plugin-examples/examplePluginRepository) to avoid copying the plugin `.zip` artifact.
+Or use the [pluginRepository](https://github.com/armory-plugins/pluginRepository) to avoid copying the plugin `.zip` artifact.
 
 To debug the plugin inside a Spinnaker service (like Orca) using IntelliJ Idea follow these steps:
 

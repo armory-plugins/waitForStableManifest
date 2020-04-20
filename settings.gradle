@@ -6,7 +6,7 @@ pluginManagement {
   }
 }
 
-rootProject.name="waitForStableManifestPlugin"
+rootProject.name="waitForStableManifest"
 
 include "manifest-orca"
 

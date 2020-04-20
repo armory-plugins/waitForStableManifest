@@ -17,14 +17,14 @@ apply plugin: "io.spinnaker.plugin.bundler"
 spinnakerBundle {
   pluginId = "Armory.WaitForStableManifest"
   description = "Enables you to specify the timeout when waiting for a manifest."
-  provider = "https://github.com/bpowell"
+  provider = "https://github.com/armory-plugins"
   version = rootProject.version
 }
 
 version = normalizedVersion()
 
 subprojects {
-  group = "io.armory.plugin.example.spring"
+  group = "io.armory.plugin.manifest"
   version = rootProject.version
 }
 
